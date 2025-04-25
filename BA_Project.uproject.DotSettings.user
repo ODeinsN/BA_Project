@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003APython_002Eh_002Fl_003AC_0021_003FProgram_0020Files_003FEpic_0020Games_003FUE_005F5_002E4_003FEngine_003FSource_003FThirdParty_003FPython3_003FWin64_003Finclude_003FPython_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7C58EDDA_002DD2C7_002D1868_002D72B5_002D94E629E240BA_002Fd_003APublic_002Fd_003ASubsystems_002Ff_003AEngineSubsystem_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7C58EDDA_002DD2C7_002D1868_002D72B5_002D94E629E240BA_002Fd_003APublic_002Fd_003ASubsystems_002Ff_003ASubsystem_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7CDE998D_002D5896_002D41E3_002D01DA_002DA99F60A907B2_002Fd_003APublic_002Fd_003AInterfaces_002Ff_003AIHttpRequest_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=A1D79532_002D6572_002DD7D1_002D74D0_002D83CC370E9894_002Fd_003APrivate_002Ff_003AJsonObjectWrapper_002Ecpp/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=A1D79532_002D6572_002DD7D1_002D74D0_002D83CC370E9894_002Fd_003APublic_002Ff_003AJsonObjectWrapper_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=AEC96199_002D061B_002D0DC7_002D2B55_002D13CC8994725E_002Fd_003APrivate_002Fd_003AMisc_002Ff_003AMonitoredProcess_002Ecpp/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=AEC96199_002D061B_002D0DC7_002D2B55_002D13CC8994725E_002Fd_003APublic_002Fd_003ADelegates_002Ff_003ADelegate_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=AEC96199_002D061B_002D0DC7_002D2B55_002D13CC8994725E_002Fd_003APublic_002Fd_003AMisc_002Ff_003AMonitoredProcess_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=AEC96199_002D061B_002D0DC7_002D2B55_002D13CC8994725E_002Fd_003APublic_002Fd_003ATasks_002Ff_003ATask_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=AEC96199_002D061B_002D0DC7_002D2B55_002D13CC8994725E_002Fd_003APublic_002Fd_003AWindows_002Ff_003AWindowsPlatformProcess_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	
+	
+	</wpf:ResourceDictionary>

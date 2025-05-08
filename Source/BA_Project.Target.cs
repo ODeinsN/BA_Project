@@ -18,7 +18,6 @@ public class BA_ProjectTarget : TargetRules
 	{
 		ExtraModuleNames.AddRange(new string[]
 		{
-			"UnrealLangChain",
 			"Ba_Neo4j_Plugin",
 			"BA_Neo4j",
 			"LlamaCore",
@@ -26,8 +25,7 @@ public class BA_ProjectTarget : TargetRules
 			"AssetTagTreeRuntime",
 			"InfodemicCore",
 			"InfodemicEditor",
-			"InfodemicSystem",
-			"InfodemicNodes",
+			"InfodemicNeo4jConnector"
 		});
 	}
 }

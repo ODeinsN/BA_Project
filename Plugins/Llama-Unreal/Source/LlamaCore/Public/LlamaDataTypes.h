@@ -220,7 +220,7 @@ struct FLLMModelParams
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "LLM Model Params")
     bool bAutoInsertSystemPromptOnLoad = true;
 
-    // Inject variables to inject into the SystemPrompt, formatted in the schema: {variable}
+    // Inject variables into the system prompt, formatted in the schema: {variable}
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "LLM Model Params")
     TMap<FString, FString> InjectedVariables;
     

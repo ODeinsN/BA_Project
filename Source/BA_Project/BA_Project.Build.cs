@@ -6,6 +6,7 @@ public class BA_Project : ModuleRules
 {
 	public BA_Project(ReadOnlyTargetRules Target) : base(Target)
 	{
+		PrivateDependencyModuleNames.AddRange(new string[] { "InfodemicCore", "InfodemicNeo4jConnector" });
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[]
@@ -17,7 +18,9 @@ public class BA_Project : ModuleRules
 			"EnhancedInput",
 			"LlamaCore",
 			"HTTP",
-			"BA_Neo4j"
+			"BA_Neo4j",
+			"InfodemicCore",
+			"InfodemicNeo4jConnector"
 		});
 	}
 }

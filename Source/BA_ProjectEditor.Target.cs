@@ -18,7 +18,6 @@ public class BA_ProjectEditorTarget : TargetRules
 	{
 		ExtraModuleNames.AddRange(new string[]
 		{
-			"UnrealLangChain",
 			"LlamaCore",
 			"InfodemicCore",
 			"InfodemicEditor",

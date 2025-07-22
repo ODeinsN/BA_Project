@@ -11,6 +11,7 @@ bool FLlamaInternal::LoadModelFromParams(const FLLMModelParams& InModelParams)
 {
     FString RHI = FHardwareInfo::GetHardwareDetailsString();
     FString GPU = FPlatformMisc::GetPrimaryGPUBrand();
+    
 
     UE_LOG(LogTemp, Log, TEXT("Device Found: %s %s"), *GPU, *RHI);
 
@@ -27,6 +28,9 @@ bool FLlamaInternal::LoadModelFromParams(const FLLMModelParams& InModelParams)
     // initialize the model
     llama_model_params LlamaModelParams = llama_model_default_params();
     LlamaModelParams.n_gpu_layers = InModelParams.GPULayers;
+    LlamaModelParams.split_mode = static_cast<llama_split_mode>(InModelParams.SplitMode.GetIntValue());
+    // todo compare InModelParams.TensorSplit size with available GPUs
+    LlamaModelParams.tensor_split = InModelParams.TensorSplit.GetData();
 
     //FPlatform
 

@@ -203,6 +203,17 @@ struct FJinjaChatTemplate
     FString Jinja = TEXT("");
 };
 
+UENUM()
+enum ELlamaSplitMode
+{
+    // single GPU
+    None = 0,
+    //split layers and KV across GPUs
+    Layer = 1,
+    //split layers and KV across GPUs, use tensor parallelism if supported
+    Row = 2
+};
+
 //Initial state fed into the model
 USTRUCT(BlueprintType)
 struct FLLMModelParams
@@ -226,7 +237,15 @@ struct FLLMModelParams
     
     //If not different than default empty, no template will be applied
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "LLM Model Params")
-    FJinjaChatTemplate CustomChatTemplate = "";
+    FJinjaChatTemplate CustomChatTemplate = {""};
+
+    // How to split model across multiple GPUs
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "LLM Model Params")
+    TEnumAsByte<ELlamaSplitMode> SplitMode = None;
+
+    // proportion of the model (layers or rows) to offload to each GPU. Default assumes the existence of only one gpu.
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "LLM Model Params")
+    TArray<float> TensorSplit = {1};
 
     //If set anything other than unknown, AI chat role will be enforced. Assistant is default
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "LLM Model Params")

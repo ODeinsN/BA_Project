@@ -51,6 +51,7 @@ If you have two GPUs and you want to run you model on 70% on GPU0 and 30% on GPU
 
 If you want one model to run only on GPU0 and the other on gpu1 you can set a (1,0) and (0,1) ratio.
 
+<img width="358" height="90" alt="image" src="https://github.com/user-attachments/assets/fcc81439-339c-4d75-af1f-fb9c80825ef5" />
 <img width="319" height="82" alt="image" src="https://github.com/user-attachments/assets/b70e1dee-350b-4fcc-9c98-6e0e65b98f18" />
 
 > Note: Currently it is not obvious which GPU is assigned to which index. Sometimes other devices or programs count as display devices which might require it to add more elements to the array.

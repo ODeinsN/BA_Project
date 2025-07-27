@@ -56,11 +56,3 @@ If you want one model to run only on GPU0 and the other on gpu1 you can set a (1
 
 > Note: Currently it is not obvious which GPU is assigned to which index. Sometimes other devices or programs count as display devices which might require it to add more elements to the array.
 > The current best way to find out, is to open task manager, experiment with values and see when the GPU load goes up
-
-
-
-
-
-
-
-

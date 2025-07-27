@@ -55,7 +55,7 @@ If you want one model to run only on GPU0 and the other on gpu1 you can set a (1
 <img width="319" height="82" alt="image" src="https://github.com/user-attachments/assets/b70e1dee-350b-4fcc-9c98-6e0e65b98f18" />
 
 > Note: Currently it is not obvious which GPU is assigned to which index. Sometimes other devices or programs count as display devices which might require it to add more elements to the array.
-> The current best way is to open task manager, experiment with values and see when the GPU load goes up
+> The current best way to find out, is to open task manager, experiment with values and see when the GPU load goes up
 
 
 

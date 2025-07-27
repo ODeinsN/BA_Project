@@ -2,7 +2,7 @@
 This repository consists of the practical implemenation of my bachelor thesis, which focused on generating dialogs using locally run LLMs while fetching domain specific information, a conversation partner should have, 
 by generating cypher queries based on user messages and enriching retrieved information into a generated answer.
 
-![llm-inference-chart](https://github.com/user-attachments/assets/e2b62c4d-3933-4e91-8a38-98542bc6a4ed)
+![en_data_flow](https://github.com/user-attachments/assets/3cc76969-e4c0-4b59-9b08-ab3206c767a9)
 
 To integrate LLMs locally, a modified version of the [Llama-Unreal plugin](https://github.com/getnamo/Llama-Unreal) by getnamo has been used, which makes it possible to use multiple GPUs, for running the LLMs.
 
